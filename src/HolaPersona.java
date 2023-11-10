@@ -11,6 +11,8 @@ public class HolaPersona {
 		String nombre = s.next();
 
 		System.out.println("Bienvenido " + nombre);
+		
+		s.close();
 	}
 
 }
